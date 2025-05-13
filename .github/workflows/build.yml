@@ -30,6 +30,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
+          file: ./docker/Dockerfile
           push: true
           tags: ghcr.io/lemehdi0/dispatcharr:latest
           platforms: linux/arm64,linux/amd64
