@@ -32,5 +32,7 @@ jobs:
           context: .
           file: ./docker/Dockerfile
           push: true
-          tags: ghcr.io/lemehdi0/dispatcharr:latest
+          tags: |
+            ghcr.io/lemehdi0/dispatcharr:latest
+            ghcr.io/lemehdi0/dispatcharr:0.4.2
           platforms: linux/arm64,linux/amd64
