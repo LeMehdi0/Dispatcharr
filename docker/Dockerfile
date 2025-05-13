@@ -44,4 +44,6 @@ RUN if [ -n "$TIMESTAMP" ]; then \
     cat /app/version.py; \
     fi
 
-ENTRYPOINT ["/app/docker/entrypoint.sh"]
+COPY run.sh /run.sh
+RUN chmod +x /run.sh
+ENTRYPOINT ["/run.sh"]
