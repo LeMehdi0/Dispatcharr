@@ -34,5 +34,5 @@ jobs:
           push: true
           tags: |
             ghcr.io/lemehdi0/dispatcharr:latest
-            ghcr.io/lemehdi0/dispatcharr:0.4.1.2
+            ghcr.io/lemehdi0/dispatcharr:0.4.1.3
           platforms: linux/arm64,linux/amd64
